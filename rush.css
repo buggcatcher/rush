@@ -141,8 +141,9 @@ a.mod {
 #img2 {
 	height: 75vh;
 	width: 100%;
-	background-image: url("img/pc.png");
+	background-image: url("img/office.jpeg");
 	background-size: cover;
+	margin-bottom: 0%;
 	padding: 2%;
 }
 
