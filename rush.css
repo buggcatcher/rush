@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 680px)
 {
 	#header-links {
 		display: none;
@@ -7,13 +7,14 @@
 	.dropdown {
 		position: relative;
 		display: inline-block;
+		padding: 2%;
+		margin-right: 3%;
 	}
 	
 	.dropbtn {
-		background-color: #8a845a;
-		color: white;
-		padding: 16px;
-		font-size: 16px;
+		background-color: transparent;
+		color: #333;
+		font-size: 36px;
 		border: none;
 		cursor: pointer;
 	}
@@ -25,6 +26,7 @@
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px black;
 		z-index: 1;
+		right: 0;
 	}
 	
 	.dropdown-content a {
@@ -42,16 +44,27 @@
 	}
 	
 	.dropdown:hover .dropbtn {
-		background-color: #776d49;
+		/* background-color: rgb(51, 51, 156); */
+		padding: 5%;
+		margin-right: 3%;
 	}
 	
 }
 
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 680px)
 {
 	.dropdown {
 		position: relative;
 		display: none;
+	}
+}
+
+@media only screen and (min-width: 660px)
+{
+	#link-section {
+		margin-right: 25%;
+		/* position: relative; */
+		/* background-color: green; */
 	}
 }
 
@@ -130,9 +143,10 @@ a {
 	font-family: serif;
 	font-style: oblique;
 	font-weight: bolder;
+	text-shadow: 2px 2px 4px #fff;
 	/* width: 100%; */
 	/* background-color: green; */
-	color: #333;
+	color: #444;
 }
 
 #banner:hover, #banner:visited {
