@@ -212,7 +212,7 @@ a.mod {
 }
 
 #footer {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	/* margin-top: 15vh; */
 	padding: 2%;
 	height: auto;
@@ -221,7 +221,19 @@ a.mod {
 }
 
 #icons-list {
-	margin: 1rem;
+	display: block;
+	justify-content: baseline;
+	margin: 2rem;
+	width: 2em;
+	height: 2em;
+}
+
+.ico {
+	display: block;
+	justify-content: baseline;
+	margin: 0.5rem;
+	width: 2em;
+	height: 2em;
 }
 
 #hero-icons {
