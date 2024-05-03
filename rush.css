@@ -160,17 +160,18 @@ a.mod {
 
 #credits {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	padding: 2%;
 }
 
 .credits-section {
-	font-size: small;
+	font-size: medium;
 	font-family: monospace;
 	color: #333;
 	padding: 2%;
 	text-decoration: none;
 	list-style: none;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	text-align: center;
 }
 
@@ -220,20 +221,18 @@ a.mod {
 	background-color: aliceblue;
 }
 
-#icons-list {
+/* #icons-list {
 	display: block;
 	justify-content: baseline;
 	margin: 2rem;
 	width: 2em;
 	height: 2em;
-}
+} */
 
 .ico {
-	display: block;
-	justify-content: baseline;
 	margin: 0.5rem;
-	width: 2em;
-	height: 2em;
+	width: 20px;
+	height: 20px;
 }
 
 #hero-icons {
