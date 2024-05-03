@@ -3,14 +3,15 @@
 	#header-links {
 		display: none;
 	}
-
+	#banner {
+		font-size: larger;
+	}
 	.dropdown {
 		position: relative;
 		display: inline-block;
 		padding: 2%;
-		margin-right: 3%;
+		margin-right: 1rem;
 	}
-	
 	.dropbtn {
 		background-color: transparent;
 		color: #333;
@@ -18,37 +19,29 @@
 		border: none;
 		cursor: pointer;
 	}
-	
 	.dropdown-content {
 		display: none;
 		position: absolute;
-		background-color: white;
+		background-color: #fff;
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px black;
 		z-index: 1;
 		right: 0;
 	}
-	
 	.dropdown-content a {
 		color: black;
 		padding: 12px 16px;
 		display: block;
 	}
-	
 	.dropdown-content a:hover {
 		background-color: #ddd;
 	}
-	
 	.dropdown:hover .dropdown-content {
 		display: block;
 	}
-	
 	.dropdown:hover .dropbtn {
-		/* background-color: rgb(51, 51, 156); */
-		padding: 5%;
-		margin-right: 3%;
+		font-size: 38px;
 	}
-	
 }
 
 @media only screen and (min-width: 680px)
@@ -63,14 +56,11 @@
 {
 	#link-section {
 		margin-right: 25%;
-		/* position: relative; */
-		/* background-color: green; */
 	}
 }
 
 body {
 	background-color: cadetblue;
-	/* height: 100vh; */
 	width: 100%;
 }
 
@@ -96,7 +86,6 @@ a {
 #header{
 	height: 15vh;
 	width: 100%;
-	/* background-color: aliceblue; */
 	background-color: transparent;
 	position: absolute;
 	z-index: 1;
@@ -120,17 +109,7 @@ a {
 	text-decoration: none;
 }
 
-#footer {
-	border: 1px solid black;
-	margin-top: 15vh;
-	padding: 2%;
-	height: 15vh;
-	justify-content: center;
-	background-color: aliceblue;
-}
-
 #header-links {
-	/* background-color: blue; */
 	width: 20em;
 	margin-top: 3%;
 	margin-left: 3%;
@@ -138,14 +117,18 @@ a {
 	position: fixed;
 }
 
+@media only screen and (min-width: 680px) {
+	#banner {
+		font-size: xx-large;
+	}
+}
+
 #banner {
-	font-size: xx-large;
+	/* font-size: xx-large; */
 	font-family: serif;
 	font-style: oblique;
 	font-weight: bolder;
 	text-shadow: 2px 2px 4px #fff;
-	/* width: 100%; */
-	/* background-color: green; */
 	color: #444;
 }
 
@@ -159,19 +142,15 @@ a {
 }
 
 .credits-section {
-	/* width: 15%; */
 	font-size: small;
 	font-family: monospace;
 	color: #333;
 	padding: 2%;
-	/* margin-left: 10%; */
 	text-decoration: none;
 	list-style: none;
 	border: 1px solid black;
 	text-align: center;
 }
-
-
 
 .a-credits, .a-credits:visited {
 	text-decoration: none;
@@ -182,12 +161,9 @@ a {
 .header-link {
 	margin-left: 2%;
 	margin-right: 5%;
-	/* margin-top: 2vh; */
 	padding: 2%;
-	/* border: 1px dotted black; */
 	width: 25px;
 	border-radius: 10%;
-	/* background-color: #888; */
 	color: #222;
 	box-shadow: 2px 2px #333;
 }
@@ -200,6 +176,19 @@ a {
 .content {
 	padding: 2%;
 	margin-top:2vh;
+}
+
+#footer {
+	border: 1px solid black;
+	margin-top: 15vh;
+	padding: 2%;
+	height: auto;
+	justify-content: center;
+	background-color: aliceblue;
+}
+
+#icons-list {
+	margin: 1rem;
 }
 
 #hero-icons {
