@@ -1,10 +1,30 @@
+@media only screen and (min-width: 679px) {
+	#banner {
+		font-size: xx-large;
+	}
+}
+
+@media only screen and (min-width: 679px)
+{
+	.dropdown {
+		position: relative;
+		display: none;
+	}
+
+	#header-links {
+		/* margin-left: 10em; */
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
 @media only screen and (max-width: 680px)
 {
 	#header-links {
 		display: none;
 	}
 	#banner {
-		font-size: larger;
+		font-size: x-large;
 	}
 	.dropdown {
 		position: relative;
@@ -44,47 +64,28 @@
 	}
 }
 
-@media only screen and (min-width: 680px)
-{
-	.dropdown {
-		position: relative;
-		display: none;
-	}
-}
-
-@media only screen and (min-width: 660px)
-{
-	#link-section {
-		margin-right: 25%;
-	}
-}
-
 body {
 	background-color: cadetblue;
 	width: 100%;
 }
-
 hr {
 	margin-top: 5vh;
 	margin-bottom: 5vh;
 }
-
 a:hover {
 	text-decoration: none;
 	font-size: medium;
 	color: #333;
 }
-
 a {
 	text-decoration: none;
 }
-
 .row {
 	display: block;
 }
 
 #header{
-	height: 15vh;
+	height: auto;
 	width: 100%;
 	background-color: transparent;
 	position: absolute;
@@ -93,6 +94,7 @@ a {
 	padding: 2%;
 	display: flex;
 	justify-content: space-between;
+	text-decoration: none;
 }
 
 #img1 {
@@ -100,31 +102,10 @@ a {
 	width: 100%;
 	background-image: url("img/high-tech-2.jpg");
 	background-size: cover;
-	/* background-color: black; */
 	padding: 2%;
 }
 
-#header {
-	position: fixed;
-	text-decoration: none;
-}
-
-#header-links {
-	width: 20em;
-	margin-top: 3%;
-	margin-left: 3%;
-	height: 5vh;
-	position: fixed;
-}
-
-@media only screen and (min-width: 680px) {
-	#banner {
-		font-size: xx-large;
-	}
-}
-
 #banner {
-	/* font-size: xx-large; */
 	font-family: serif;
 	font-style: oblique;
 	font-weight: bolder;
@@ -158,14 +139,21 @@ a {
 	font-size: small;
 }
 
+#header-links {
+	width: 100%;
+	height: auto;
+}
+
 .header-link {
-	margin-left: 2%;
-	margin-right: 5%;
-	padding: 2%;
-	width: 25px;
+	padding: 1%;
+	width: auto;
 	border-radius: 10%;
 	color: #222;
+	margin-left: 2%;
+	height: auto;
+	margin-right: 2%;
 	box-shadow: 2px 2px #333;
+	text-align: center;
 }
 
 .header-link:hover {
@@ -180,7 +168,7 @@ a {
 
 #footer {
 	border: 1px solid black;
-	margin-top: 15vh;
+	/* margin-top: 15vh; */
 	padding: 2%;
 	height: auto;
 	justify-content: center;
