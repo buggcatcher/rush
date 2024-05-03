@@ -1,150 +1,188 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-<title>About Us</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f8ff;
-  }
-  .container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  h1 {
-    text-align: center;
-    color: #333;
-  }
-  .table-container {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  table {
-    width: 200px;
-    height: 150px;
-    margin: 10px;
-    border-collapse: collapse;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    animation: cascade 1s ease forwards;
-    animation-delay: calc(0.1s * var(--i));
-  }
-  @keyframes cascade {
-    from {
-      opacity: 0;
-      transform: translateY(-50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I nostri Principi</title>
+    <style>
+        body {
+            background-color: lightblue;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            animation: cascade 1s ease forwards;
+            opacity: 0;
+        }
+
+        @keyframes cascade {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
+
 <body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Empowerment dei Dipendenti</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Valorizziamo le competenze e il potenziale dei nostri dipendenti attraverso programmi di formazione continua, mentoring e coaching, per consentire loro di raggiungere il massimo delle loro capacità.</td>
+                </tr>
+            </tbody>
+        </table>
 
-<div class="container">
-  <h1>About Us</h1>
-  <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Innovazione Orientata alle Persone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Poniamo le esigenze e i desideri delle persone al centro del nostro processo decisionale, guidando l'innovazione per creare soluzioni significative e rilevanti per la vita quotidiana.</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <table style="--i: 1;">
-      <tr>
-        <th></th>
-      </tr>
-      <tr>
-        <td></td>
-      </tr>
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Trasparenza e Comunicazione Aperta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Facciamo della trasparenza e della comunicazione aperta la base delle nostre relazioni, incoraggiando un dialogo aperto e onesto senza timore di ripercussioni.</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <table style="--i: 2;">
-      <tr>
-        <th>Lorem Ipsum</th>
-      </tr>
-      <tr>
-        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-      </tr>
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Equilibrio tra Vita Lavorativa e Personale</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Riconosciamo l'importanza dell'equilibrio tra vita professionale e personale, offrendo flessibilità lavorativa, politiche di lavoro remoto e supporto per il benessere dei nostri dipendenti.</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <table style="--i: 3;">
-      <tr>
-        <th>Lorem Ipsum</th>
-      </tr>
-      <tr>
-        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-      </tr>
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Responsabilità Sociale d'Impresa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ci impegniamo a essere un agente di cambiamento positivo nella nostra comunità e nel mondo, attraverso iniziative di sostenibilità ambientale, supporto alle comunità locali e promozione della diversità e inclusione.</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <table style="--i: 4;">
-      <tr>
-        <th>Lorem Ipsum</th>
-      </tr>
-      <tr>
-        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-      </tr>
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Etica nell'Intelligenza Artificiale e nell'Automazione</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ci impegniamo a sviluppare e implementare tecnologie come l'intelligenza artificiale e l'automazione in modo etico, garantendo la sicurezza, la privacy e l'impatto sociale positivo.</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <table style="--i: 5;">
-      <tr>
-        <th>Lorem Ipsum</th>
-      </tr>
-      <tr>
-        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-      </tr>
-    </table>
- 
-    <table style="--i: 6;">
-      <tr>
-        <th>Lorem Ipsum</th>
-      </tr>
-      <tr>
-        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-      </tr>
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Cura del Cliente e dell'Utente Finale</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mettiamo sempre al centro delle nostre attività il benessere e la soddisfazione dei nostri clienti e utenti finali, fornendo prodotti e servizi di alta qualità e rispondendo prontamente alle loro esigenze e feedback.</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <table style="--i: 7;">
-      <tr>
-        <th>Lorem Ipsum</th>
-      </tr>
-      <tr>
-        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-      </tr>
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Collaborazione Interdisciplinare</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Favoriamo la collaborazione e il dialogo tra diverse discipline e settori per promuovere soluzioni innovative e inclusive che rispondano alle sfide complesse del mondo moderno.</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <table style="--i: 8;">
-      <tr>
-        <th>Lorem Ipsum</th>
-      </tr>
-      <tr>
-        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-      </tr>
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Agilità e Adattabilità</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Siamo pronti a rispondere rapidamente ai cambiamenti del mercato e delle tecnologie, adattando strategie e processi per mantenere la competitività e soddisfare le esigenze dei nostri clienti in modo efficace.</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <table style="--i: 9;">
-      <tr>
-        <th>Lorem Ipsum</th>
-      </tr>
-      <tr>
-        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-      </tr>
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Cultura della Sperimentazione e del Fallimento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Incoraggiamo un ambiente in cui sia accettato il rischio e il fallimento come parte naturale del processo di apprendimento e crescita, stimolando l'innovazione attraverso la sperimentazione e la condivisione delle lezioni apprese.</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <table style="--i: 10;">
-      <tr>
-        <th>Lorem Ipsum</th>
-      </tr>
-      <tr>
-        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-      </tr>
-    </table>
-  </div>
-</div>
-
+    </div>
 </body>
+
 </html>
