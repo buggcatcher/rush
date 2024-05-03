@@ -1,11 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>About Us</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .table-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  table {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-collapse: collapse;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    animation: cascade 1s ease forwards;
+    animation-delay: calc(0.1s * var(--i));
+  }
+  @keyframes cascade {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
 </head>
 <body>
-    hello from about page
+
+<div class="container">
+  <h1>About Us</h1>
+  <div class="table-container">
+
+    <table style="--i: 1;">
+      <tr>
+        <th></th>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+    </table>
+
+    <table style="--i: 2;">
+      <tr>
+        <th>Lorem Ipsum</th>
+      </tr>
+      <tr>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      </tr>
+    </table>
+
+    <table style="--i: 3;">
+      <tr>
+        <th>Lorem Ipsum</th>
+      </tr>
+      <tr>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      </tr>
+    </table>
+
+    <table style="--i: 4;">
+      <tr>
+        <th>Lorem Ipsum</th>
+      </tr>
+      <tr>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      </tr>
+    </table>
+
+    <table style="--i: 5;">
+      <tr>
+        <th>Lorem Ipsum</th>
+      </tr>
+      <tr>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      </tr>
+    </table>
+ 
+    <table style="--i: 6;">
+      <tr>
+        <th>Lorem Ipsum</th>
+      </tr>
+      <tr>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      </tr>
+    </table>
+
+    <table style="--i: 7;">
+      <tr>
+        <th>Lorem Ipsum</th>
+      </tr>
+      <tr>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      </tr>
+    </table>
+
+    <table style="--i: 8;">
+      <tr>
+        <th>Lorem Ipsum</th>
+      </tr>
+      <tr>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      </tr>
+    </table>
+
+    <table style="--i: 9;">
+      <tr>
+        <th>Lorem Ipsum</th>
+      </tr>
+      <tr>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      </tr>
+    </table>
+
+    <table style="--i: 10;">
+      <tr>
+        <th>Lorem Ipsum</th>
+      </tr>
+      <tr>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
 </body>
 </html>
