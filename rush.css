@@ -139,9 +139,9 @@ a.mod {
 }
 
 #img2 {
-	height: 75vh;
+	height: 42vh;
 	width: 100%;
-	background-image: url("img/office.jpeg");
+	background-image: url("img/office.png");
 	background-size: cover;
 	margin-bottom: 0%;
 	padding: 2%;
@@ -200,6 +200,7 @@ a.mod {
 	box-shadow: 2px 2px #333;
 	text-align: center;
 	font-weight: 500;
+	background-color: #f8f8f8;
 }
 
 .header-link:hover {
@@ -214,7 +215,7 @@ a.mod {
 }
 
 #footer {
-	/* border: 1px solid black; */
+	border: 1px solid white; 
 	/* margin-top: 15vh; */
 	padding: 2%;
 	height: auto;
