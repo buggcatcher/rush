@@ -9,11 +9,53 @@
 	<script src="https://kit.fontawesome.com/3d79c68617.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="rush.css">
 	<title>Rush</title>
+
+	<style>
+		@media screen and (max-width:679px)
+		{
+			.text1 {
+				font-size: 18px;
+			}
+		}
+		@media screen and (min-width:680px)
+		{
+			.text1 {
+				font-size: 42px;
+			}
+		}
+		.text1 {
+			color: rgb(210, 207, 224);
+			font-weight: 700;
+			width: 100%;
+			text-align: center;
+			margin-bottom: 2vh;
+			background: rgb(13, 17, 5);
+			position: relative;
+			animation: text 3s 1;
+			letter-spacing: 3px;
+		}
+		@keyframes text {
+			0% {
+				color: black;
+				letter-spacing: 4px;
+				margin-bottom: -5px;
+			}
+			30% {
+				letter-spacing: 6px;
+				margin-bottom: -7px;
+			}
+			85% {
+				letter-spacing: 3px;
+				margin-bottom: -10px;
+			}
+		}
+	</style>
 </head>
 <body>
 	<div id="container">
 		
 		<div id="header">
+			
 			<a href="rush.html">
 				<div id="banner">
 					OurCompany
@@ -21,7 +63,7 @@
 			</a>
 
 			<ul id="header-links">
-				<a href="" class="header-link">Home</a>
+				<a href="rush.html" class="header-link">Home</a>
 				<a href="src/about.html" class="header-link">About</a>
 				<a href="src/services.html" class="header-link">Services</a>
 			</ul>
@@ -52,6 +94,10 @@
 				Questo testo è un trattato su teorie di etica, molto popolare nel Rinascimento. La prima riga del Lorem Ipsum, "Lorem ipsum dolor sit amet..",
 				è tratta da un passaggio della sezione 1.10.32.
 			</p>
+		</div>
+
+		<div id="animation" class="row">
+			<span class="text1">Are you looking for Web Solutions?</span>
 		</div>
 
 		<div id="footer">
