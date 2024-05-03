@@ -65,7 +65,8 @@
 }
 
 body {
-	background-color: cadetblue;
+	background: linear-gradient(145deg, aliceblue, cadetblue);
+	/* background-color: cadetblue; */
 	width: 100%;
 }
 hr {
@@ -90,7 +91,8 @@ a {
 	height: auto;
 	width: 100%;
 	background-color: transparent;
-	position: absolute;
+	/* position: absolute; */
+	position: fixed;
 	z-index: 1;
 	margin: auto;
 	padding: 2%;
@@ -150,11 +152,11 @@ a {
 
 .header-link {
 	padding: 1%;
-	width: 5rem;
+	width: auto;
 	border-radius: 10%;
 	color: #222;
 	margin-left: 1%;
-	height: 2.5em;
+	height: auto;
 	margin-right: 1em;
 	box-shadow: 2px 2px #333;
 	text-align: center;
@@ -168,8 +170,8 @@ a {
 }
 
 .content {
-	padding: 2%;
-	margin-top:2vh;
+	padding: 10%;
+	/* margin-top:2vh; */
 }
 
 #footer {
